@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Example</title>
+</head>
+<body>
+
+    <form>
+        <label for="firstname">First name:</label>
+        <input type="text" id="firstname" name="firstname"><br><br>
+
+        <label for="lastname">Last name:</label>
+        <input type="text" id="lastname" name="lastname"><br><br>
+
+        <label for="gender">Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        <label for="experience">Years of Experience</label><br>
+        <input type="radio" id="exp1" name="experience" value="1"> 1
+        <input type="radio" id="exp2" name="experience" value="2"> 2
+        <input type="radio" id="exp3" name="experience" value="3"> 3
+        <input type="radio" id="exp4" name="experience" value="4"> 4
+        <input type="radio" id="exp5" name="experience" value="5"> 5
+        <input type="radio" id="exp6" name="experience" value="6"> 6
+        <input type="radio" id="exp7" name="experience" value="7"> 7<br><br>
+
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date"><br><br>
+
+
+        <label for="profession">Profession</label><br>
+        <input type="checkbox" id="manual" name="profession" value="manual">
+        <label for="manual">Manual Tester</label><br>
+        <input type="checkbox" id="automation" name="profession" value="automation">
+        <label for="automation">Automation Tester</label><br><br>
+
+
+        <label for="tools">Automation Tools</label><br>
+        <input type="checkbox" id="uft" name="tools" value="uft">
+        <label for="uft">UFT</label><br>
+        <input type="checkbox" id="protractor" name="tools" value="protractor">
+        <label for="protractor">Protractor</label><br>
+        <input type="checkbox" id="selenium" name="tools" value="selenium">
+        <label for="selenium">Selenium Webdriver</label><br><br>
+
+
+        <label for="continents">Continents</label><br>
+        <select id="continents" name="continents">
+            <option value="asia">Asia</option>
+        </select><br><br>
+
+
+        <label for="commands">Selenium Commands</label><br>
+        <select id="commands" name="commands" multiple>
+            <option value="browser">Browser Commands</option>
+            <option value="navigation">Navigation Commands</option>
+            <option value="navigation">Switch Commands</option>
+            <option value="navigation">Wait Commands</option>
+            <option value="navigation">WebElement Commands</option>
+        </select><br><br>
+
+
+        <label for="image">Upload Image</label>
+        <input type="file" id="image" name="image"><br><br>
+
+
+        <label for="download">Download File</label>
+        <a href="#">Click here to Download File</a><br><br>
+
+
+        <button type="submit">Button</button>
+    </form>
+
+</body>
+</html>
