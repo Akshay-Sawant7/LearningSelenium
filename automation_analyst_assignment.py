@@ -6,6 +6,12 @@ from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
 import time
 
+'''
+use below command in terminal to install requirements
+pip install pytest allure-pytest selenium  
+
+For running tests click arrow button which appering on left side of function names
+'''
 
 # 1- Navigate to the FitPeo Homepage
 def test_open_fitpeo_homepage():
