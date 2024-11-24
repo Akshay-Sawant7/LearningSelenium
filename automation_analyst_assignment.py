@@ -11,6 +11,10 @@ use below command in terminal to install requirements
 pip install pytest allure-pytest selenium  
 
 For running tests click arrow button which appering on left side of function names
+or
+run below command in terminal all tests will run one after one
+pytest -s automation_analyst_assignment.py
+
 '''
 
 # 1- Navigate to the FitPeo Homepage
